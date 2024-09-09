@@ -1,10 +1,10 @@
 public class Profile {
-
-    static String nome = "Gabriel";
-    static String saudacao = "Seja bem-vindo ao programa principal, ";
     public static void main(String[] args){
-        System.out.println("Ola, " + nome);
-        System.out.println(saudacao + nome);
+        String nome = "Gabriel";
+        int idade = 29;
+        String cargo = "Consultor de Aplicações Linux N2";
+
+        System.out.println(String.format("Meu nome é %s, tenho %s, e meu cargo é de %s.", nome, idade, cargo));
     }
 
 }
